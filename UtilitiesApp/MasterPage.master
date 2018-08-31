@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>   
+    <script src="bootstraps/startbootstrap-freelancer-gh-pages/vendor/jquery/jquery.min.js"></script>
+    <link href="bootstraps/startbootstrap-freelancer-gh-pages/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" /> 
+    <link href="bootstraps/startbootstrap-freelancer-gh-pages/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="bootstraps/startbootstrap-freelancer-gh-pages/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="bootstraps/startbootstrap-freelancer-gh-pages/css/freelancer.min.css" rel="stylesheet" />
+</head>
+<body id ="page-top">
+    <form id="form1" runat="server">
+    <div>
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Up Test</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+                    <div class="navbar-collapse collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.aspx">HOME</a>
+                            </li>
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="students.aspx">STUDENTS</a>
+                            </li>
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="course.aspx">COURSES</a>
+                            </li>
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Instructors.aspx">INSTRUCTORS</a>
+                            </li>
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Departments.aspx">DEPARTMENTS</a>
+                            </li>
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="forms/about.aspx">ABOUT</a>
+                            </li>
+                        </ul>
+                    </div>
+             </div>
+         </nav>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Location</h4>
+            <p class="lead mb-0">Vargas Araya
+              <br>San Pedro, San Jose</p>
+          </div>
+            <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Contact Me</h4>
+            <p class="lead mb-0">Telf: 8673-6000
+              <br>Email: cryordan13@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright © Utilities App 2018</small>
+      </div>
+    </div>
+    <div class="scroll-to-top d-lg-none position-fixed " style="display: block;">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+        <script src="bootstraps/startbootstrap-freelancer-gh-pages/vendor/jquery/jquery.min.js"></script>
+        <script src="bootstraps/startbootstrap-freelancer-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstraps/startbootstrap-freelancer-gh-pages/vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="bootstraps/startbootstrap-freelancer-gh-pages/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="bootstraps/startbootstrap-freelancer-gh-pages/js/jqBootstrapValidation.min.js"></script>
+        <script src="bootstraps/startbootstrap-freelancer-gh-pages/js/contact_me.js"></script>
+        <script src="bootstraps/startbootstrap-freelancer-gh-pages/js/freelancer.min.js"></script>
+    </div>
+    </form>
+</body>
+</html>
